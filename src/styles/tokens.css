@@ -1,0 +1,66 @@
+:root {
+  /* Paleta cromática principal — Modern Luxury / Urban Editorial */
+  --color-bg-primary: #111110;       /* Negro carbón */
+  --color-bg-secondary: #1C1B19;     /* Negro secundario */
+  --color-bg-tertiary: #252422;      /* Carbón elevado */
+  --color-bg-card: rgba(28, 27, 25, 0.75);
+  
+  --color-text-primary: #F4F0E9;     /* Marfil */
+  --color-text-secondary: #A6A19A;   /* Gris piedra */
+  --color-text-muted: #78736C;       /* Gris tenue */
+  --color-text-highlight: #FAF8F4;   /* Blanco cálido */
+  
+  --color-accent-copper: #B77A56;    /* Cobre de acento */
+  --color-accent-copper-hover: #C98B66;
+  --color-accent-copper-glow: rgba(183, 122, 86, 0.22);
+  --color-accent-gold: #B89A72;      /* Dorado apagado */
+  --color-deep-brown: #44352D;       /* Marrón profundo */
+
+  /* Secciones con contraste Marfil / Claro */
+  --color-surface-light: #F4F0E9;
+  --color-text-dark: #111110;
+  --color-text-dark-secondary: #57524C;
+
+  /* Bordes & Glassmorphism */
+  --border-subtle: rgba(244, 240, 233, 0.09);
+  --border-strong: rgba(244, 240, 233, 0.18);
+  --border-copper: rgba(183, 122, 86, 0.4);
+  --glass-bg: rgba(28, 27, 25, 0.65);
+  --glass-blur: blur(14px);
+
+  /* Tipografías */
+  --font-display: 'Syne', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Escala tipográfica fluida mediante clamp() */
+  --text-hero: clamp(2.8rem, 6.5vw, 5.8rem);
+  --text-h1: clamp(2.2rem, 4.5vw, 3.8rem);
+  --text-h2: clamp(1.8rem, 3.5vw, 2.8rem);
+  --text-h3: clamp(1.35rem, 2.2vw, 1.85rem);
+  --text-h4: clamp(1.1rem, 1.6vw, 1.35rem);
+  --text-body-lg: clamp(1.05rem, 1.2vw, 1.2rem);
+  --text-body: 0.95rem;
+  --text-small: 0.82rem;
+  --text-micro: 0.72rem;
+
+  /* Espaciado & Contenedor */
+  --container-max: 1320px;
+  --container-pad: clamp(1.2rem, 4vw, 3rem);
+  --section-pad: clamp(4rem, 8vw, 8rem);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+
+  /* Sombras sutiles */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.65);
+  --shadow-copper: 0 8px 30px rgba(183, 122, 86, 0.18);
+
+  /* Transiciones */
+  --transition-fast: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 320ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-editorial: 500ms cubic-bezier(0.25, 1, 0.5, 1);
+}

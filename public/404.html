@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es-CL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirigiendo... | ATELIER 47</title>
+    <script>
+      // Redireccionar al index con la ruta como hash si se entra en una sub-ruta directa
+      var pathSegments = window.location.pathname.split('/').filter(Boolean);
+      var repoName = pathSegments.length > 0 ? '/' + pathSegments[0] + '/' : '/';
+      window.location.replace(repoName);
+    </script>
+  </head>
+  <body style="background-color: #111110; color: #EDEAE4; font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0;">
+    <p>Redirigiendo al inicio de ATELIER 47...</p>
+  </body>
+</html>
